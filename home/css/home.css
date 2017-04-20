@@ -1,0 +1,51 @@
+/*中间部分*/
+#content{
+    background-color: white;
+    padding: 15px;
+
+    /* 让子元素居中 */
+    display:flex;
+    justify-content:center;
+}
+
+#content .margin{
+    margin-top: 100px;
+    text-align: left;
+    width: 466px;
+}
+
+#content .margin input{
+    width: 100%;
+    margin-bottom: 10px;
+    min-height: 34px;
+    padding: 6px 8px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #24292e;
+    vertical-align: middle;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+}
+
+#content .margin p{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#content .btn-group{
+    margin-bottom: 10px;
+}
+
+
+#content .btn-success{
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+}
